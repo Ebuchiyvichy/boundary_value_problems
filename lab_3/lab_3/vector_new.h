@@ -14,10 +14,10 @@ extern double	PI;
 
 struct Data
 {
-	double	L = 2;//test1
-//	double	L = 1;//test2
-	double	a = 1;
-	double	T = 1;
+//	double	L = 2;//test1
+	double	L = 1;//test2, variant2, variant6
+	double	a = 1.0;
+	double	T = 1.0;
 
 	std::function<double(double, Data)>	left_boarder;
 	std::function<double(double, Data)>	right_boarder;

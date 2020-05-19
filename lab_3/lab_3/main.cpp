@@ -12,11 +12,11 @@ int main()
 
 	DATA.left_boarder = &phi;
 	DATA.right_boarder = &psi;
-	DATA.initial_condition = &f;
+	DATA.initial_condition = &f; 
 	DATA.diff_initial_cond = &g;
 
 	scheme_cross(h, tau, DATA, "");
-	error_check(0.1, 0.1, DATA);
+// 	error_check(0.1, 0.1, DATA);
 
 
 	system("pause");
